@@ -20,7 +20,7 @@ export const SearchResults = (props) => {
 
   useEffect(() => {
     const prompt = location.state.prompt;
-    fetch(`http://192.168.1.131:18081/search?prompt=${prompt}`)
+    fetch(`http://localhost:18081/search?prompt=${prompt}`)
       .then(response => response.json())
       .then(data => setUrlList(data))
     if (!status.done) {
