@@ -1,6 +1,6 @@
 # Nyshporka search
 
-This is a simple frontend for the [Nyshporka web crawler](github.com/rwmutel/nyshporka)
+This is a simple frontend for the [Nyshporka web crawler](https://github.com/rwmutel/nyshporka)
 
 The backend (nysh_search cmake target) has to be running on localhost in order for the frontend to work.
 
